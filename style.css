@@ -1,0 +1,28 @@
+html{
+    background-image: url("background.jpg");
+
+
+
+}
+
+
+body{
+    background: rgba(255, 255, 255, 0.8);
+    width: 550px;
+    padding: 50px 100px;
+    margin: 30px auto;
+    border-radius: 25px;
+}
+
+
+#ask{
+    width: 550px;
+}
+
+#ball {
+    margin: auto 110px;
+}
+
+#ans{
+    color: green;
+}
