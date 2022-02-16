@@ -19,6 +19,8 @@ function answerq(){
         ansEl.innerHTML = "HOW DARE YOU DOUBT ME"
     } else if(quest === "Is JavaScript awesome?"){
         ansEl.innerHTML = "OF COURSE IT IS"
+    } else if (quest === ""){
+        ansEl.innerHTML = "Please ask a question..."
     } else {
         let ranum = Math.random();
         if(ranum <0.2){
