@@ -24,21 +24,21 @@ function answerq(){
     } else {
         let ranum = Math.random();
         if(ranum <0.2){
-        console.log(ranum)
-        ansEl.innerHTML = "Without a Doubt."
-    } else if (ranum < 0.4){
-        console.log(ranum)
-        ansEl.innerHTML = "As I see it, yes."
-    } else if (ranum < 0.6){
-        console.log(ranum)
-        ansEl.innerHTML = "Concentrate and ask again."
-    } else if (ranum < 0.8){
-        console.log(ranum)
-        ansEl.innerHTML = "Don't count on it."
-    } else {
-        console.log(ranum)
-        ansEl.innerHTML = "Outlook not so good."
+            console.log(ranum)
+            ansEl.innerHTML = "Without a Doubt."
+        } else if (ranum < 0.4){
+            console.log(ranum)
+            ansEl.innerHTML = "As I see it, yes."
+        } else if (ranum < 0.6){
+            console.log(ranum)
+            ansEl.innerHTML = "Concentrate and ask again."
+        } else if (ranum < 0.8){
+            console.log(ranum)
+            ansEl.innerHTML = "Don't count on it."
+        } else {
+            console.log(ranum)
+            ansEl.innerHTML = "Outlook not so good."
+        }
     }
-}
 
 }
